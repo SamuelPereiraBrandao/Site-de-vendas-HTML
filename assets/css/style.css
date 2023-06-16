@@ -19,10 +19,18 @@ header .container {
 header .logo {
     display: inline-block;
     text-align: center;
+    font-size:27px;
   }
   
   header .logo span {
     vertical-align: middle;
+  }
+  header .logo .ponto-azul{
+    background-color:#3e50e5;
+    width:10px;
+    height:10px;
+    border-radius:10px;
+    display:inline-block;
   }
 header nav {
     display:inline-block;
