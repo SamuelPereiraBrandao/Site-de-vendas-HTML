@@ -1,0 +1,54 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    margin:0;
+    min-height:3000px;
+}
+
+.container {
+
+    max-width:1180px;
+    margin:auto;
+    padding:0 16px;
+}
+header .container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height:80px;
+}
+header .logo {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  header .logo span {
+    vertical-align: middle;
+  }
+header nav {
+    display:inline-block;
+}
+header nav ul li {
+    display:inline-block;
+
+}
+ul {
+    margin:0px;
+    padding:0px;
+
+}
+header{
+    position:fixed;
+    width:100%;
+    background-color: white;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+}
+header nav ul li a{
+    color: #3e3e3e;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right:24px;
+    text-decoration:none;
+}
+header nav ul li:last-of-type a{
+    margin-right:0px;
+}
