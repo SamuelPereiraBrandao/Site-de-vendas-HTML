@@ -112,6 +112,7 @@ section.hero {
     font-size: 50px;
     letter-spacing: 1.25px;
     line-height: 56px;
+    font-weight: normal;
    
 }
 
@@ -149,4 +150,171 @@ section.hero {
 
 * {
     margin: 0;
+}
+section.best-sellers{
+    padding-top:80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 14px;
+}
+section.best-sellers h2 {
+    text-align: center;
+    font-size: 34px;
+    letter-spacing: 0.85px;
+    line-height: 42px;
+    font-weight: normal;
+    }
+section.best-sellers hr {
+    margin-top:35px;
+    width:66px;
+    border:none;
+    border-top:5px solid #67f110;
+    border-radius:5px;
+    margin-bottom:75px;
+}
+.product-slider{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-slider .produto-container{
+    margin: 5px;
+    max-width: 470px;
+    max-height: 561px;
+    min-width: 400px;
+    min-height: 400px;
+   border: 1px solid rgba(0, 0, 0, 0.219);
+   border-radius: 5px;
+   position:relative;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.produto-container .img-container{
+    margin-top:25px;
+    display:flex;
+    justify-content: center;
+}
+.produto-container .img-container img{
+    width: 200px;
+    height: 200px;
+}
+.product-slider h4{
+text-align:center;
+color:#3e50e5;
+margin-top:10px;
+font-weight: normal;
+font-family: Heebo;
+}
+.product-slider h3{
+    text-align:center;
+    margin-top:5px;
+    font-weight: normal;
+    font-family: Heebo;
+    }
+    .product-slider h2{
+        text-align:center;
+        margin-top:5px;
+        font-weight: normal;
+        font-family: Heebo;
+        }
+        .product-slider button{
+            
+            height: 40px;
+            width: 50%;
+            background-color: #001aff59;
+
+            border-radius: 25px;
+            color:white;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.4px;
+            line-height: 24px;
+            text-align: center;
+            border: none;
+            text-transform: uppercase;
+
+            }
+            .product-slider button:hover{
+                transition: ease-in-out 0.2s ;
+                background-color: #001affaf;
+                cursor: pointer;
+                }
+
+.button-product{
+    margin-bottom: 10px;
+    margin-top:10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+section.best-sellers .product-slider .produto-container::before{
+    content: "Novo";
+    background-color: red;
+    position:absolute;
+    top:0;
+    right:0;
+    border-radius:5px;
+    padding:6px 15px;
+    margin:12px;
+    color:white;
+}
+section.best-sellers .product-slider .produto-container .preco-original{
+color:#9b9b9b;
+font-weight:normal;
+font-size:16px;
+letter-spacing: 0.4px;
+line-height: 30px;
+text-decoration: line-through;
+
+}
+
+section.best-sellers .product-slider .produto-container .preco-descontado{
+
+    color:#EC1C1C;
+}
+
+section.newsletter {
+    background-color:rgba(200,200,200,0.18);
+    max-width:955px;
+    text-align:center;
+    padding: 72px 0;
+    margin: 80px auto;
+}
+
+section.newsletter h3{
+    font-size:24px;
+    letter-spacing: 0.6px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-top:0;
+    margin-bottom:10px;
+
+}
+section.newsletter p{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    line-height: 42px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+section.newsletter form{
+    display: flex;
+    justify-content: center;
+}
+section.newsletter form input{
+    border-radius: 60px 0 0 60px;
+    width: 326px;
+    max-width: 80%;
+    margin:0;
+    padding:0;
+}
+section.newsletter form button{
+    height: 50px;
+    width: 145px;
+    max-width: 20%;
+    border-radius: 0 60px 60px 0;
 }
