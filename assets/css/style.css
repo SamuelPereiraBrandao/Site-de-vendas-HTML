@@ -6,8 +6,8 @@ body {
 }
 
 .container {
-
-    max-width: 1180px;
+    width: 1440px;
+    max-width: 90%;
     margin: auto;
     padding: 0 16px;
 }
@@ -145,11 +145,17 @@ section.hero {
     transition: 0.25s ease-in-out;
     cursor: pointer;
     background-color: #3e4fe5c0;
-    color:white;
+    
+    transition: ease-in-out 0.2s ;
+    background-color: white;
+    cursor: pointer;
+    color:black;
+    border: 1px solid #001aff59;
 }
 
 * {
     margin: 0;
+    font-family: Heebo;
 }
 section.best-sellers{
     padding-top:80px;
@@ -240,8 +246,10 @@ font-family: Heebo;
             }
             .product-slider button:hover{
                 transition: ease-in-out 0.2s ;
-                background-color: #001affaf;
+                background-color: white;
                 cursor: pointer;
+                color:black;
+                border: 1px solid #001aff59;
                 }
 
 .button-product{
@@ -283,6 +291,7 @@ section.newsletter {
     text-align:center;
     padding: 72px 0;
     margin: 80px auto;
+    border-radius:10px;
 }
 
 section.newsletter h3{
@@ -309,12 +318,51 @@ section.newsletter form input{
     border-radius: 60px 0 0 60px;
     width: 326px;
     max-width: 80%;
-    margin:0;
     padding:0;
+    padding-left: 20px;
+    line-height: 21px;
+    border:none;
+
 }
 section.newsletter form button{
     height: 50px;
     width: 145px;
     max-width: 20%;
     border-radius: 0 60px 60px 0;
+    background-color:#3e50e5;
+    border: #3e50e5;
+    color:white;
+    font-size:14px;
+    letter-spacing: 0.35px;
+    line-height: 21px;
+    cursor:pointer;
+}
+
+/* Responsivo notebook */
+@media screen and (max-width: 1440px){
+    .container {
+        width: 1180px;
+        max-width: 90%;
+    }
+    body{
+        padding-top:70px;
+    }
+    header {
+        height: 70px;
+    }
+}
+
+
+/* Responsivo tablet */
+@media screen and (max-width: 960px){
+    .container {
+        max-width: 92%;
+    }
+}
+
+
+/* Responsivo mobile */
+@media screen and (max-width: 576px){
+    .container {
+    }
 }
